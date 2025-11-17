@@ -1,0 +1,40 @@
+Time Series Forecasting (Advanced), Anomaly Detection & ML Optimization 
+
+1️⃣ Time Series Components (Advanced Breakdown) 
+==================================================
+Summary: 
+Deep dive into trend, seasonality, cyclic patterns, and residual noise. Learn decomposition techniques for better forecasting. Example: Decomposing monthly sales using STL into separate components.
+
+ Video: “STL Decomposition Explained” 
+
+
+2️⃣ Stationarity & Differencing (ADF Test) 
+==============================================
+Summary: 
+Why forecasting models require stationarity & how differencing fixes non-stationarity. Example: Applying ADF test → p-value < 0.05 → series is stationary.
+
+ Video: “Stationarity in Time Series – ADF Test Tutorial”
+
+
+ 3️⃣ ARIMA & SARIMA Hyperparameter Tuning
+=================================================
+ Summary: 
+Choosing p, d, q values; using AIC/BIC score for better model selection. Example: Grid search for SARIMA(1,1,1)(1,0,1,12) for monthly dataset. Video: “ARIMA & SARIMA Hyperparameter Tuning – Complete Guide” 
+
+
+4️⃣ Prophet Forecasting (Advanced)
+========================================
+ Summary:
+Facebook Prophet’s ability to handle seasonality, holidays, changepoints. Example: Forecasting festival season sales uplift using custom holiday dataframe. 
+
+Video: “Prophet Forecasting – Full Tutorial” 
+
+
+5️⃣ Time Series Feature Engineering
+====================================
+Summary: 
+Creating meaningful features: lag features, rolling mean, rolling STD, expanding windows. Example: Lag_7, rolling_30_avg for daily sales forecasting. 
+
+Video: “Time Series Feature Engineering with Pandas” 
+
+
